@@ -412,7 +412,7 @@ body.dark-body {
   height: 60px;
   z-index: 9999;
 }
-.header .logo {
+.header .logo, .header .logo a {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
@@ -420,6 +420,11 @@ body.dark-body {
   float: left;
   line-height: 50px;
   padding: 5px 15px;
+}
+
+.header .logo a:hover {
+  color: rgb(255, 0, 200);
+  text-decoration: none;
 }
 .header .menu-toggle {
   position: absolute;
