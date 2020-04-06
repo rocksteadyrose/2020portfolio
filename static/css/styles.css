@@ -183,6 +183,9 @@ body.dark-body {
   .page-content {
     padding: 85px 20px 80px;
   }
+  .js .page {
+    overflow-y: auto;
+  }
 }
 
 /*---------------------------------
