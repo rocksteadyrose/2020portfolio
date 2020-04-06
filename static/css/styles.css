@@ -166,7 +166,7 @@ body.dark-body {
 
 @media(max-width: 1200px){
   .page-content {
-    padding: 40px 30px 90px 30px;
+    padding: 40px 30px 30px 30px;
   }
 }
 
@@ -175,7 +175,7 @@ body.dark-body {
     overflow-y: auto;
   }
   .page-content {
-    padding: 90px 30px 30px;
+    padding: 90px 30px 90px;
   }
 }
 
