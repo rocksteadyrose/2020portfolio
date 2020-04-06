@@ -133,7 +133,7 @@ Copyright (c) 2018 - PxDraft
             speed: 50,
             loop:true,
             strings: [
-              "children's media content consultant", "web developer", "puppeteer", "creator"
+              "children's media content consultant", "web developer", "puppeteer", "illustrator","creator"
             ],
             breakLines: false
         }); 
