@@ -181,7 +181,7 @@ body.dark-body {
 
 @media(max-width: 767px) {
   .page-content {
-    padding: 85px 20px 80px;
+    padding: 85px 20px 200px;
   }
 }
 
