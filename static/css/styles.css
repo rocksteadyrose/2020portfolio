@@ -421,6 +421,16 @@ body.dark-body {
   line-height: 50px;
   padding: 5px 15px;
 }
+
+.logo a {
+  color: rgb(255, 30, 169);
+}
+
+.logo a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
 .header .menu-toggle {
   position: absolute;
   top: 0;
@@ -1170,6 +1180,12 @@ padding: 20px;
   border-bottom: 4px solid #eee;
   overflow: hidden;
 }
+
+.email a {
+  text-decoration: none;
+  color: black;
+}
+
 .contact-info h6 {
   font-weight: 600;
   font-size: 16px;
