@@ -172,10 +172,11 @@ body.dark-body {
 
 @media(max-width: 991px) {
   .js .page {
-    overflow-y: auto;
+    overflow-y: scroll;
   }
   .page-content {
     padding: 90px 30px 30px;
+    height: 100%;
   }
 }
 
