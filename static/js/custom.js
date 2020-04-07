@@ -155,6 +155,7 @@ Copyright (c) 2018 - PxDraft
         ALX.mTypeIt();
     });
 
+
 })(jQuery);
 
 
