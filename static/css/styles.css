@@ -185,7 +185,7 @@ body.dark-body {
     padding: 85px 20px 30px;
   }
   .js .page {
-    overflow-y: scroll;
+    overflow-y: visible;
   }
 
 }
