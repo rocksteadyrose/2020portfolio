@@ -183,7 +183,6 @@ body.dark-body {
   .page-content {
     padding: 85px 20px 80px;
     width: auto;
-
   }
   .js .page {
     overflow-y: scroll;
@@ -500,7 +499,7 @@ body.dark-body {
   background: #fff;
 }
 .home-banner .page-content .v-center-box {
-  min-height: calc(100vh - 100px);
+  /* min-height: calc(100vh - 100px); */
 }
 .home-banner img {
   max-height: 100vh;
