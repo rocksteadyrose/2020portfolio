@@ -179,8 +179,8 @@ body.dark-body {
     padding: 90px 30px 30px;
   }
   #home, #about, #resume, #portfolio, #contact {
-    padding-bottom: 150px;
-    padding-top: 50px;
+    margin-bottom: 150px;
+    margin-top: 50px;
   }
 
 }
