@@ -176,8 +176,8 @@ body.dark-body {
   }
   .page-content {
     padding: 90px 30px 30px;
-    height: 100%;
   }
+
 }
 
 @media (max-width: 767px) {
@@ -623,6 +623,11 @@ body.dark-body {
     width: 35px;
     height: 35px;
   }
+
+  .home-banner {
+    margin-bottom: 20px;
+  }
+  
   .home-text h6 {
     font-size: 14px;
   }
