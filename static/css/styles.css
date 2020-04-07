@@ -40,11 +40,6 @@ body {
   color: #878C9F;
 }
 
-#home, #about, #resume, #portfolio, #contact {
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-
 img {
   max-width: 100%;
 }
@@ -189,6 +184,10 @@ body.dark-body {
 @media(max-width: 767px) {
   .page-content {
     padding: 85px 20px 30px;
+  }
+  #home, #about, #resume, #portfolio, #contact {
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 }
 
