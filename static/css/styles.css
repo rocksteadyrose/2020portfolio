@@ -38,6 +38,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: #878C9F;
+  height: 100%;
 }
 img {
   max-width: 100%;
@@ -182,7 +183,7 @@ body.dark-body {
 @media(max-width: 767px) {
   .page-content {
     padding: 85px 20px 80px;
-    width: auto;
+    max-height: 100%;
   }
   .js .page {
     overflow-y: scroll;
@@ -499,7 +500,7 @@ body.dark-body {
   background: #fff;
 }
 .home-banner .page-content .v-center-box {
-  /* min-height: calc(100vh - 100px); */
+  min-height: calc(100vh - 100px);
 }
 .home-banner img {
   max-height: 100vh;
