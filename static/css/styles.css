@@ -172,7 +172,7 @@ body.dark-body {
 
 @media(max-width: 991px) {
   .js .page {
-    overflow-y: scroll;
+    overflow-y: visible;
   }
   .page-content {
     padding: 90px 30px 30px;
@@ -180,13 +180,13 @@ body.dark-body {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .page-content {
     padding: 85px 20px 30px;
   }
-  /* .js .page {
+  .js .page {
     overflow-y: scroll;
-  } */
+  }
 
 }
 
