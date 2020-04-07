@@ -39,8 +39,6 @@ body {
   line-height: 1.8;
   color: #878C9F;
 }
-
-
 img {
   max-width: 100%;
 }
@@ -174,12 +172,11 @@ body.dark-body {
 
 @media(max-width: 991px) {
   .js .page {
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   .page-content {
     padding: 90px 30px 30px;
   }
-
 }
 
 @media(max-width: 767px) {
