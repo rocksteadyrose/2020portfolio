@@ -172,14 +172,18 @@ body.dark-body {
 
 @media(max-width: 991px) {
   .js .page {
-    overflow-y: visible;
+    overflow-y: auto;
   }
   .page-content {
     padding: 90px 30px 30px;
   }
-
 }
 
+@media(max-width: 767px) {
+  .page-content {
+    padding: 85px 20px 30px;
+  }
+}
 
 /*---------------------------------
   Buttons
@@ -408,7 +412,7 @@ body.dark-body {
   height: 60px;
   z-index: 9999;
 }
-.header .logo, .header .logo a {
+.header .logo {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
@@ -416,11 +420,6 @@ body.dark-body {
   float: left;
   line-height: 50px;
   padding: 5px 15px;
-}
-
-.header .logo a:hover {
-  color: rgb(255, 0, 200);
-  text-decoration: none;
 }
 .header .menu-toggle {
   position: absolute;
@@ -605,7 +604,6 @@ body.dark-body {
   }
   .home-banner .social-icons {
     left: 30px;
-    position: fixed;
   }
   .home-text h1 {
     font-size: 30px;
@@ -615,7 +613,6 @@ body.dark-body {
     width: 35px;
     height: 35px;
   }
-
   .home-text h6 {
     font-size: 14px;
   }
