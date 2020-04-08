@@ -999,10 +999,10 @@ body.dark-body {
     width: 50%; 
   }
 
-  .lesliepic {
-    height: 40%;
-    width: 40%;
+  #about, #portfolio, #contact, #resume {
+   padding-bottom: 20px;
   }
+
 }
 @media (max-width: 767px){
   .portfolio-filter li {
