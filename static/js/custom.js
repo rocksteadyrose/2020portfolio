@@ -130,10 +130,11 @@ Copyright (c) 2018 - PxDraft
 
      ALX.mTypeIt = function() {
         new TypeIt('#type-it', {
-            speed: 50,
+            speed: 200,
             loop:true,
             strings: [
-              "children's media content consultant", "web developer", "puppeteer", "programming specialist","illustrator", "creator"
+              'Designer',
+              'Developer'
             ],
             breakLines: false
         }); 
@@ -154,7 +155,6 @@ Copyright (c) 2018 - PxDraft
         ALX.LightboxGallery(),
         ALX.mTypeIt();
     });
-
 
 })(jQuery);
 

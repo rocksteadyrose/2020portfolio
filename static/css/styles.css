@@ -178,10 +178,6 @@ body.dark-body {
   .page-content {
     padding: 90px 30px 30px;
   }
-  #home, #about, #resume, #portfolio, #contact {
-    margin-bottom: 150px;
-    margin-top: 50px;
-  }
 
 }
 
@@ -1001,6 +997,10 @@ body.dark-body {
 @media (max-width: 991px){
   .portfolio-cols-3 .portfolio-item {
     width: 50%; 
+  }
+
+  #home {
+    height: 100%;
   }
 }
 @media (max-width: 767px){
