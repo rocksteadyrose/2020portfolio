@@ -1000,7 +1000,8 @@ body.dark-body {
   }
 
   .lesliepic {
-    width: 70%;
+    height: 40%;
+    width: 40%;
   }
 }
 @media (max-width: 767px){
