@@ -173,7 +173,7 @@ body.dark-body {
 
 @media(max-width: 991px) {
   .js .page {
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   .page-content {
     padding: 90px 30px 30px;
@@ -617,6 +617,7 @@ body.dark-body {
   .home-banner .social-icons li {
     padding-bottom: 10px;
   
+}
 }
 
 @media(max-width: 767px){
