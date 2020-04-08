@@ -133,8 +133,10 @@ Copyright (c) 2018 - PxDraft
             speed: 200,
             loop:true,
             strings: [
-              'Designer',
-              'Developer'
+              'Creator',
+              'Web Developer',
+              `Social Media Manager`,
+              `Children's Media Specialist`,
             ],
             breakLines: false
         }); 

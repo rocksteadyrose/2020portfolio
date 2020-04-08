@@ -728,6 +728,17 @@ body.dark-body {
   margin: 0;
 }
 
+.bleeckielink {
+  color: rgb(255, 0, 98);
+  text-decoration: none;
+}
+
+.bleeckielink:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+
 
 /*==============================
   Resume box
@@ -871,6 +882,14 @@ body.dark-body {
   background: #333;
 }
 
+@media (min-width: 768px){
+  .toprowskills {
+    padding-top: 50px;
+  }
+  }
+
+
+
 
 /*-----------------------------------------
 * 11. Portfolio
@@ -1011,6 +1030,7 @@ body.dark-body {
  
 
 }
+
 @media (max-width: 767px){
   .portfolio-filter li {
     font-size: 11px;
