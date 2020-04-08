@@ -1591,7 +1591,15 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 			gmaps: {
 				index: '//maps.google.',
 				src: '%id%&output=embed'
-			}
+			},
+			iframe: {
+				patterns: {
+				   youtube: {
+					  index: 'youtube.com/', 
+					  id: 'v=', 
+					  src: 'http://www.youtube.com/embed/%id%?autoplay=1' 
+				  }
+				}
 		}
 	},
 
