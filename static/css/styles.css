@@ -40,9 +40,6 @@ body {
   color: #878C9F;
 }
 
-html, body {
-  min-height: 100vh;
-}
 
 img {
   max-width: 100%;
@@ -177,11 +174,13 @@ body.dark-body {
 
 @media(max-width: 991px) {
   .js .page {
-    overflow-y: auto;
+    overflow-y: scroll;
   }
   .page-content {
     padding: 90px 30px 30px;
+    height: 400px;
   }
+
 
 }
 
@@ -611,7 +610,8 @@ body.dark-body {
   }
   .home-banner .social-icons {
     right: auto;
-    left: 50px;
+    top: 220px;
+    /* left: 50px; */
     /* -webkit-transform: translate3d(0,0,0); */
     /* position: relative; */
   }
