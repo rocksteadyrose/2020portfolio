@@ -999,8 +999,8 @@ body.dark-body {
     width: 50%; 
   }
 
-  #home {
-    height: 100%;
+  .lesliepic {
+    width: 90%;
   }
 }
 @media (max-width: 767px){
