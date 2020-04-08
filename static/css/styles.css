@@ -177,6 +177,7 @@ body.dark-body {
   }
   .page-content {
     padding: 90px 30px 30px;
+    margin-bottom: 30px;
     /* min-height: 800px; */
   }
 
