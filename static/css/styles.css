@@ -661,6 +661,16 @@ body.dark-body {
   margin: 0 0 10px
 }
 
+.lesliegif {
+  width:30%;
+}
+
+.about-text-intro {
+  display: flex;
+  align-items:center;
+}
+
+
 .feature-box {
   position: relative;
   padding-left: 50px;
@@ -1131,6 +1141,16 @@ padding: 20px;
   letter-spacing: .5px;
   border-radius: 3px;
 }
+
+.contact-intro {
+  display: flex;
+  align-items:center;
+}
+
+.wave {
+  width: 20%;
+}
+
 .output_message.success{
   background: #25a224;
   display: block;
