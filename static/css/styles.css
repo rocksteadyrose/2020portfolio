@@ -233,8 +233,12 @@ body.dark-body {
 .yellow-after:after {
   background-color: #f8c964;
 }
+.pink-bg {
+  background-color: #ff00bf;
+}
+
 .blue-bg {
-  background-color: #2fb3cd;
+  background-color: rgb(0, 204, 255);
 }
 /* .blue-after:after {
   background-color: #ffd900;
@@ -449,7 +453,7 @@ body.dark-body {
   top: 0;
   bottom: 0;
   right: 0;
-  background-color: rgb(255, 30, 169);;
+  background-color: #ff00bf;
   height: 100px;
   width: 60px;
 }
@@ -636,7 +640,7 @@ body.dark-body {
     min-height: inherit;
   }
   .home-banner .page-content {
-    padding-top: 30px;
+    padding-top: 90px;
   }
   .home-text {
     padding: 20px 20px 70px;
