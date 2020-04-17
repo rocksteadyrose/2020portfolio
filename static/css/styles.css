@@ -712,6 +712,10 @@ body.dark-body {
   margin: 0 0 10px
 }
 
+.colors {
+  width: 10px;
+}
+
 .lesliegif {
   width:30%;
 }
