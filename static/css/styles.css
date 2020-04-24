@@ -815,6 +815,9 @@ body.dark-body {
 .resume-row {
   position: relative;
 }
+
+
+
 .resume-row:after {
   position: absolute;
   top: 10px;
@@ -1209,6 +1212,10 @@ padding: 20px;
 .contact-intro {
   display: flex;
   align-items:center;
+}
+
+#contactpic {
+  background-size: 100%;
 }
 
 .wave {
