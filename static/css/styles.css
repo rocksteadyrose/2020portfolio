@@ -633,9 +633,11 @@ body.dark-body {
 }
 
 @media(max-width: 991px){
+
   .home-user-avtar {
-    padding-top: 120px; /* use this to change height on front page graphic */
+    padding-top: 65px;
   }
+
   .home-banner .page-content .v-center-box {
     min-height: inherit;
   }
@@ -1099,12 +1101,20 @@ body.dark-body {
   .portfolio-cols-3 .portfolio-item {
     width: 50%; 
   }
-  #about, #portfolio, #contact .page-scroll, #resume {
-    margin-bottom: 200px;
+#contact .page-scroll{
+    margin: 70px 0 20px 0;
     /* max-height: 100%; */
     /* height:100%; */
   }
  
+#about{
+  margin: 70px 0 230px 0;
+}
+
+#resume, #portfolio {
+  margin-top: 70px;
+  padding-bottom: 160px;
+}
 
 }
 
