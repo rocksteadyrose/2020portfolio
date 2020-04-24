@@ -634,7 +634,7 @@ body.dark-body {
 
 @media(max-width: 991px){
   .home-user-avtar {
-    padding-top: 60px;
+    padding-top: 120px; /* use this to change height on front page graphic */
   }
   .home-banner .page-content .v-center-box {
     min-height: inherit;
